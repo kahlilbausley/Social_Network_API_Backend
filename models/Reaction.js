@@ -1,4 +1,5 @@
 const { Schema, Types } = require('mongoose');
+const { ObjectId } = require('mongoose').Types;
 
 const reactionSchema = new Schema(
   {
